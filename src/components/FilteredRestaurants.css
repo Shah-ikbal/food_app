@@ -1,0 +1,58 @@
+.restaurant {
+    cursor: pointer;
+}
+
+
+.restaurant__details {
+    display: flex;
+}
+
+
+.restaurant__details > .MuiTypography-h6 {
+    font-size: 12px;
+}
+
+.restaurant__orderButton {
+    font-weight: 800;
+    color: #f7121a !important
+}
+
+.MuiCard-root {
+    transition: transform 300ms ease-in !important;
+}
+
+.MuiCard-root:hover {
+    transform: scale(1.07);
+}
+
+.restaurant__price {
+    color: #FF4500;
+    font-size: medium;
+}
+
+.restaurant__rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    width: 40px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.rating > p {
+    color: white;
+    font-size: small;
+    margin-left: 4px;
+}
+
+@media all and (max-width: 500px) {
+    .restaurant {
+        margin-top: 20px;
+    }
+}

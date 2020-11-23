@@ -1,0 +1,7 @@
+.checkbox__name {
+    color: gray;
+}
+
+.checkbox__nameChecked {
+    color: black;
+}
